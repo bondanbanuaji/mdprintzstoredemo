@@ -35,7 +35,7 @@ const Category = () => {
         >
             <div className="grid items-start justify-center w-full grid-cols-1 gap-10 lg:grid-cols-6">
 
-                {/* TEXT SECTION - Kolom 1 */}
+                {/* TEXT SECTION */}
                 <div
                     data-aos="zoom-in"
                     data-aos-delay="50"
@@ -50,7 +50,7 @@ const Category = () => {
                     </button>
                 </div>
 
-                {/* CATEGORY IMAGES - Kolom 2–6 */}
+                {/* CATEGORY IMAGES */}
                 <div className="grid w-full grid-cols-1 gap-10 lg:col-span-5 lg:grid-cols-5">
                     <div data-aos="zoom-in" data-aos-delay="100" className="flex flex-col items-center gap-6">
                         <img src={cat1} alt="cat1" className="rounded-full cursor-pointer" />
