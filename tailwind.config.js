@@ -8,8 +8,8 @@ export default {
     extend: {
       colors: {
         themeyellow: "#F5E60D",
-        themepuurple: "502EC3",
-        
+        themepurple: "#502EC3",
+
       }
     },
   },
