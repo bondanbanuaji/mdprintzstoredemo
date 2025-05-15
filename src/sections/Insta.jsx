@@ -35,7 +35,7 @@ const Insta = () => {
         Follow On Facebook
       </h1>
       <div data-aos="zoom-in" data-aos-delay="300"
-        className='grid items-center justify-center w-full grid-cols-1 gap-6 mt-8 frid lg:grid-cols-6'>
+        className='grid w-full grid-cols-2 gap-6 mt-8 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-6'>
         <img src={insta1} alt="" className='rounded-lg' />
         <img src={insta2} alt="" className='rounded-lg' />
         <img src={insta3} alt="" className='rounded-lg' />
