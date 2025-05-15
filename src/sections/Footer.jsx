@@ -51,82 +51,38 @@ const Footer = () => {
         className='w-[130px] opacity-70 cursor-pointer hover:opacity-100'/>
       </div>
       {/* 2ndbox */}
-      <div className='w-full lg:px-20 px-5 py-[60px] bg-gray-100 grid lg:grid-cols-5 grid-cols-1 justify-between items-start lg:gap-3 gap-10'>
-        <div data-aos="zoom-in" data-aos-delat="200"
-        className='flex flex-col items-start justify-center gap-10 grow'>
-          <div className='flex flex-col items-start justify-center gap-4'>
-            <h1 className='text-4xl italic font-bold underline text-themepurple'> MDPrintz</h1>
-            <p className='text-justify text-gray-500'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia, sed ipsum facere minus velit eius!</p>
-          </div>
-          <div className='flex flex-col items-start justify-center gap-4'>
-            <h1 className='text-xl font-semibold text-black capitalize'>Download Our App</h1>
-            <div className='flex items-center justify-center gap-4'>
-              <img src={google} alt="" />
-              <img src={apple} alt="" />
-            </div>
-          </div>
-        </div>
-        <div data-aos="zoom-in" data-aos-delay="300">
-          <h1 className='text-xl font-semibold text-black capitalize'>
-            Usefull links
-            <h1>
-              <ul className='flex flex-col items-start justify-center gap-2 mt-8 '>
-                <li className='text-gray-500 cursor-pointer hover:text-black'>Home</li>
-                <li className='text-gray-500 cursor-pointer hover:text-black'>Home</li>
-                <li className='text-gray-500 cursor-pointer hover:text-black'>Home</li>
-                <li className='text-gray-500 cursor-pointer hover:text-black'>Home</li>
-                <li className='text-gray-500 cursor-pointer hover:text-black'>Home</li>
-                <li className='text-gray-500 cursor-pointer hover:text-black'>Home</li>
-              </ul>
-            </h1>
-          </h1>
-        </div>
-        <div data-aos="zoom-in" data-aos-delay="300">
-          <h1 className='text-xl font-semibold text-black capitalize'>
-            Usefull links
-            <h1>
-              <ul className='flex flex-col items-start justify-center gap-2 mt-8 '>
-                <li className='text-gray-500 cursor-pointer hover:text-black'>Home</li>
-                <li className='text-gray-500 cursor-pointer hover:text-black'>Home</li>
-                <li className='text-gray-500 cursor-pointer hover:text-black'>Home</li>
-                <li className='text-gray-500 cursor-pointer hover:text-black'>Home</li>
-                <li className='text-gray-500 cursor-pointer hover:text-black'>Home</li>
-                <li className='text-gray-500 cursor-pointer hover:text-black'>Home</li>
-              </ul>
-            </h1>
-          </h1>
-        </div>
-        <div data-aos="zoom-in" data-aos-delay="300">
-          <h1 className='text-xl font-semibold text-black capitalize'>
-            Usefull links
-            <h1>
-              <ul className='flex flex-col items-start justify-center gap-2 mt-8 '>
-                <li className='text-gray-500 cursor-pointer hover:text-black'>Home</li>
-                <li className='text-gray-500 cursor-pointer hover:text-black'>Home</li>
-                <li className='text-gray-500 cursor-pointer hover:text-black'>Home</li>
-                <li className='text-gray-500 cursor-pointer hover:text-black'>Home</li>
-                <li className='text-gray-500 cursor-pointer hover:text-black'>Home</li>
-                <li className='text-gray-500 cursor-pointer hover:text-black'>Home</li>
-              </ul>
-            </h1>
-          </h1>
-        </div>
-        <div data-aos="zoom-in" data-aos-delay="300">
-          <h1 className='text-xl font-semibold text-black capitalize'>
-            Usefull links
-            <h1>
-              <ul className='flex flex-col items-start justify-center gap-2 mt-8 '>
-                <li className='text-gray-500 cursor-pointer hover:text-black'>Home</li>
-                <li className='text-gray-500 cursor-pointer hover:text-black'>Home</li>
-                <li className='text-gray-500 cursor-pointer hover:text-black'>Home</li>
-                <li className='text-gray-500 cursor-pointer hover:text-black'>Home</li>
-                <li className='text-gray-500 cursor-pointer hover:text-black'>Home</li>
-                <li className='text-gray-500 cursor-pointer hover:text-black'>Home</li>
-              </ul>
-            </h1>
-          </h1>
-        </div>
+      <div className='w-full lg:px-20 px-5 py-[60px] bg-gray-100 grid lg:grid-cols-2 grid-cols-1 justify-between items-start lg:gap-20 gap-10'>
+  {/* Kiri (MDPrintz) */}
+  <div data-aos="zoom-in" data-aos-delay="200"
+    className='flex flex-col items-start justify-center gap-10'>
+    <div className='flex flex-col items-start justify-center gap-4'>
+      <h1 className='text-4xl italic font-bold underline text-themepurple'> MDPrintz</h1>
+      <p className='text-justify text-gray-500'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia, sed ipsum facere minus velit eius!</p>
+    </div>
+    <div className='flex flex-col items-start justify-center gap-4'>
+      <h1 className='text-xl font-semibold text-black capitalize'>Download Our App</h1>
+      <div className='flex items-center justify-center gap-4'>
+        <img src={google} alt="Google Play" />
+        <img src={apple} alt="Apple Store" />
       </div>
+    </div>
+  </div>
+
+  {/* Kanan (Useful Links) */}
+  <div data-aos="zoom-in" data-aos-delay="300"
+    className='flex flex-col items-start justify-start'>
+    <h1 className='text-xl font-semibold text-black capitalize'>Useful Links</h1>
+    <ul className='flex flex-col items-start justify-center gap-2 mt-8'>
+      <li className='text-gray-500 cursor-pointer hover:text-black'>Home</li>
+      <li className='text-gray-500 cursor-pointer hover:text-black'>About</li>
+      <li className='text-gray-500 cursor-pointer hover:text-black'>Services</li>
+      <li className='text-gray-500 cursor-pointer hover:text-black'>Products</li>
+      <li className='text-gray-500 cursor-pointer hover:text-black'>Contact</li>
+      <li className='text-gray-500 cursor-pointer hover:text-black'>FAQ</li>
+    </ul>
+  </div>
+  </div>
+
       
       {/* 3rdbox */}
       <div className='w-full lg:px-20 px-5 py-[40px] bg-gray-100'>
