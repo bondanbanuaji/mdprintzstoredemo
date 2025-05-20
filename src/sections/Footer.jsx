@@ -60,7 +60,7 @@ const Footer = () => {
       <p className='text-justify text-gray-500'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia, sed ipsum facere minus velit eius!</p>
     </div>
     <div className='flex flex-col items-start justify-center gap-4'>
-      <h1 className='text-xl font-semibold text-black capitalize'>Download Our App</h1>
+      <h1 className='text-xl font-semibold text-black capitalize'>Download MDPrintz App</h1>
       <div className='flex items-center justify-center gap-4'>
         <img src={google} alt="Google Play" />
         <img src={apple} alt="Apple Store" />

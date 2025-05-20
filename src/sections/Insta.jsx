@@ -28,7 +28,7 @@ const Insta = () => {
   return (
     <div className='w-full lg:px-20 px-5 py-[80px] bg-white flex flex-col justify-center items-center gap-4'>
       <h1 data-aos="zoom-in" data-aos-delays="100" 
-      className='text-xl font-semibold capitalize text-themepurple' >Our Instagram Shop
+      className='text-xl font-semibold capitalize text-themepurple' >Facebook Marketplace
       </h1>
       <h1 data-aos="zoom-in" data-aos-delay="200"
         className='font-semibold text-black text-[42px] leading-[50px] text-center capitalize'>

@@ -35,41 +35,41 @@ const Category = () => {
         >
             <div className="grid items-start justify-center w-full grid-cols-1 gap-10 lg:grid-cols-6">
 
-                {/* TEXT SECTION */}
+                {/* BAGIAN TEKS */}
                 <div
                     data-aos="zoom-in"
                     data-aos-delay="50"
                     className="lg:col-span-1 flex flex-col justify-center items-start gap-[20px] text-left"
                 >
-                    <h1 className="text-xl font-semibold text-themepurple">Favorites Item</h1>
+                    <h1 className="text-xl font-semibold text-themepurple">Item Favorit</h1>
                     <h1 className="text-black font-semibold text-[42px] leading-[50px] lg:text-start">
-                        Popular Category
+                        Kategori Populer
                     </h1>
                     <button className="px-8 py-5 font-semibold text-white rounded-lg mt-[40px] bg-themepurple hover:bg-themeyellow hover:text-black">
-                        VIEW ALL
+                        LIHAT SEMUA
                     </button>
                 </div>
 
-                {/* CATEGORY IMAGES */}
+                {/* GAMBAR KATEGORI */}
                 <div className="grid w-full grid-cols-1 gap-10 lg:col-span-5 lg:grid-cols-5">
                     <div data-aos="zoom-in" data-aos-delay="100" className="flex flex-col items-center gap-6">
-                        <img src={cat1} alt="cat1" className="rounded-full cursor-pointer" />
+                        <img src={cat1} alt="cat1" className="w-40 h-40 rounded-full cursor-pointer" />
                         <h1 className="text-xl font-semibold text-black cursor-pointer hover:text-themepurple">Kategori 1</h1>
                     </div>
                     <div data-aos="zoom-in" data-aos-delay="200" className="flex flex-col items-center gap-6">
-                        <img src={cat2} alt="cat2" className="rounded-full cursor-pointer" />
+                        <img src={cat2} alt="cat2" className="w-40 h-40 rounded-full cursor-pointer" />
                         <h1 className="text-xl font-semibold text-black cursor-pointer hover:text-themepurple">Kategori 2</h1>
                     </div>
                     <div data-aos="zoom-in" data-aos-delay="300" className="flex flex-col items-center gap-6">
-                        <img src={cat3} alt="cat3" className="rounded-full cursor-pointer" />
+                        <img src={cat3} alt="cat3" className="w-40 h-40 rounded-full cursor-pointer" />
                         <h1 className="text-xl font-semibold text-black cursor-pointer hover:text-themepurple">Kategori 3</h1>
                     </div>
                     <div data-aos="zoom-in" data-aos-delay="400" className="flex flex-col items-center gap-6">
-                        <img src={cat4} alt="cat4" className="rounded-full cursor-pointer" />
+                        <img src={cat4} alt="cat4" className="w-40 h-40 rounded-full cursor-pointer" />
                         <h1 className="text-xl font-semibold text-black cursor-pointer hover:text-themepurple">Kategori 4</h1>
                     </div>
                     <div data-aos="zoom-in" data-aos-delay="500" className="flex flex-col items-center gap-6">
-                        <img src={cat5} alt="cat5" className="rounded-full cursor-pointer" />
+                        <img src={cat5} alt="cat5" className="w-40 h-40 rounded-full cursor-pointer" />
                         <h1 className="text-xl font-semibold text-black cursor-pointer hover:text-themepurple">Kategori 5</h1>
                     </div>
                 </div>

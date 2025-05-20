@@ -6,14 +6,15 @@ const Header = () => {
   const [scrolled, setScrolled] = useState(false);
 
   const navItems = [
-    { name: 'Hero', id: 'hero' },
-    { name: 'Category', id: 'category' },
-    { name: 'Services', id: 'services' },
-    { name: 'Types', id: 'types' },
-    { name: 'Products', id: 'products' },
-    { name: 'Reviews', id: 'reviews' },
-    { name: 'Insta', id: 'insta' },
-  ];
+  { name: 'Beranda', id: 'hero' },
+  { name: 'Kategori', id: 'category' },
+  { name: 'Layanan', id: 'services' }, 
+  { name: 'Promo', id: 'promo' },     
+  { name: 'Produk', id: 'products' },
+  { name: 'Ulasan', id: 'reviews' },
+  { name: 'Instagram', id: 'insta' },
+];
+
 
   const scrollTo = (id) => {
     const el = document.getElementById(id);

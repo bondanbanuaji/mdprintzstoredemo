@@ -24,11 +24,11 @@ const Productsgrid = () => {
   return (
     <div id='products' className='w-full lg:px-20 px-5 py-[80px] bg-gray-100 flex flex-col justify-center items-center gap-4'>
       <h1 data-aos="zoom-in" data-aos-delay="100"
-        className='text-xl font-semibold text-themepurple'>Browser Collections
+        className='text-xl font-semibold text-themepurple'>Jelajahi Koleksi
       </h1>
       <h1 data-aos="zoom-in" data-aos-delay="200"
         className='text-black font-semibold text-[42px] leading-[50px] text-center'>
-        Trending Products
+        Produk Terpopuler
       </h1>
       <div data-aos="zoom-in" data-aos-delay="300"
         className='grid items-center justify-center w-full grid-cols-1 gap-10 mt-10 lg:grid-cols-4'>
@@ -60,15 +60,17 @@ const Productsgrid = () => {
                     <FaStar className='text-themepurple' />
                     <FaStar className='text-themepurple' />
                   </div>
-                  <button className='px-4 py-2 text-white bg-green-500 rounded-lg text-[13px] font-semibold'>SALE 14%</button>
+                  <button className='px-4 py-2 text-white bg-green-500 rounded-lg text-[13px] font-semibold'>DISKON 14%</button>
                 </div>
               </div>
             </div>
           ))
         }
       </div>
-      <button date-aos="zoom-in" data-aos-delay="400" 
-      className='px-8 py-3 mt-8 font-semibold text-white rounded-lg bg-themepurple hover:bg-themeyellow hover:text-black'>View More</button>
+      <button data-aos="zoom-in" data-aos-delay="400"
+        className='px-8 py-3 mt-8 font-semibold text-white rounded-lg bg-themepurple hover:bg-themeyellow hover:text-black'>
+        Lihat Lebih Banyak
+      </button>
     </div>
   )
 }
