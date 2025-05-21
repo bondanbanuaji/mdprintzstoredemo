@@ -42,19 +42,23 @@ const Hero = () => {
           <div className='w-full lg:px-20 px-5 lg-h[700px] h-[600px] 
           flex flex-col justify-center items-start gap-10 bg-cover bg-center'
             style={{ backgroundImage: `url(${dslr})` }}>
+
             <h1 data-aos="zoom-in" data-aos-delay="50"
               className='px-6 py-2 text-xl border rounded-lg text-themeyellow border-themeyellow'>
               Diskon hingga 80%
             </h1>
+
             <h1 data-aos="zoom-in" data-aos-delay="100"
               className='text-white lg:text-[120px] text-[60px]
-            uppercase font-bold lg:leading-[120px] leading-[70px]'>
-              Kamera DSLR <br /> 360°
+    uppercase font-bold lg:leading-[120px] leading-[70px]'>
+              Kartu <br /> Undangan
             </h1>
+
             <h1 data-aos="zoom-in" data-aos-delay="50"
               className='text-2xl text-white'>
-              100% <span className='font-semibold text-themeyellow'>Gadget Elektronik Terpercaya</span>
+              100% <span className='font-semibold text-themeyellow'>Desain Eksklusif & Berkualitas Tinggi</span>
             </h1>
+
             <button data-aos="zoom-in" data-aos-delay="200"
               className='px-6 py-3 font-semibold text-black rounded-lg bg-themeyellow'>
               KOLEKSI ONLINE
@@ -67,19 +71,23 @@ const Hero = () => {
           <div className='w-full lg:px-20 px-5 lg-h[700px] h-[600px] 
           flex flex-col justify-center items-start gap-10 bg-cover bg-center'
             style={{ backgroundImage: `url(${earbuds})` }}>
+
             <h1 data-aos="zoom-in" data-aos-delay="50"
               className='px-6 py-2 text-xl border rounded-lg text-themeyellow border-themeyellow'>
               Diskon hingga 80%
             </h1>
+
             <h1 data-aos="zoom-in" data-aos-delay="100"
               className='text-white lg:text-[120px] text-[60px]
-            uppercase font-bold lg:leading-[120px] leading-[70px]'>
-              Earbuds <br /> Nirkabel
+    uppercase font-bold lg:leading-[120px] leading-[70px]'>
+              Kartu Nama <br /> Elegan
             </h1>
+
             <h1 data-aos="zoom-in" data-aos-delay="50"
               className='text-2xl text-white'>
-              100% <span className='font-semibold text-themeyellow'>Gadget Elektronik Terpercaya</span>
+              100% <span className='font-semibold text-themeyellow'>Profesional & Siap Cetak</span>
             </h1>
+
             <button data-aos="zoom-in" data-aos-delay="200"
               className='px-6 py-3 font-semibold text-black rounded-lg bg-themeyellow'>
               KOLEKSI ONLINE
@@ -90,21 +98,25 @@ const Hero = () => {
         {/* Slide 3 */}
         <div>
           <div className='w-full lg:px-20 px-5 lg-h[700px] h-[600px] 
-          flex flex-col justify-center items-start gap-10 bg-cover bg-center'
+    flex flex-col justify-center items-start gap-10 bg-cover bg-center'
             style={{ backgroundImage: `url(${headset})` }}>
+
             <h1 data-aos="zoom-in" data-aos-delay="50"
               className='px-6 py-2 text-xl border rounded-lg text-themeyellow border-themeyellow'>
               Diskon hingga 80%
             </h1>
+
             <h1 data-aos="zoom-in" data-aos-delay="100"
               className='text-white lg:text-[120px] text-[60px]
-            uppercase font-bold lg:leading-[120px] leading-[70px]'>
-              Headset <br /> Terbaik
+      uppercase font-bold lg:leading-[120px] leading-[70px]'>
+              ID Card <br /> Eksklusif
             </h1>
+
             <h1 data-aos="zoom-in" data-aos-delay="50"
               className='text-2xl text-white'>
-              100% <span className='font-semibold text-themeyellow'>Gadget Elektronik Terpercaya</span>
+              100% <span className='font-semibold text-themeyellow'>Cetak Berkualitas & Tahan Lama</span>
             </h1>
+
             <button data-aos="zoom-in" data-aos-delay="200"
               className='px-6 py-3 font-semibold text-black rounded-lg bg-themeyellow'>
               KOLEKSI ONLINE

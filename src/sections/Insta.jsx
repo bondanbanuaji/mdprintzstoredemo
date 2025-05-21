@@ -13,22 +13,22 @@ import 'aos/dist/aos.css';
 
 const Insta = () => {
 
-    useEffect(() => {
-      AOS.init({
-        offset: 100,
-        duration: 500,
-        easing: 'ease-in-out',
-      })
-  
-      AOS.refresh();
-  
-    }, [])
-  
+  useEffect(() => {
+    AOS.init({
+      offset: 100,
+      duration: 500,
+      easing: 'ease-in-out',
+    })
+
+    AOS.refresh();
+
+  }, [])
+
 
   return (
     <div className='w-full lg:px-20 px-5 py-[80px] bg-white flex flex-col justify-center items-center gap-4'>
-      <h1 data-aos="zoom-in" data-aos-delays="100" 
-      className='text-xl font-semibold capitalize text-themepurple' >Facebook Marketplace
+      <h1 data-aos="zoom-in" data-aos-delays="100"
+        className='text-xl font-semibold capitalize text-themepurple' >Facebook Marketplace
       </h1>
       <h1 data-aos="zoom-in" data-aos-delay="200"
         className='font-semibold text-black text-[42px] leading-[50px] text-center capitalize'>
@@ -43,8 +43,24 @@ const Insta = () => {
         <img src={insta5} alt="" className='rounded-lg' />
         <img src={insta6} alt="" className='rounded-lg' />
       </div>
-      <button data-aos="zoom-in" data-aos-delay="400"
-      className='px-8 py-3 mt-12 font-semibold text-white uppercase rounded-lg bg-themepurple hover:bg-themeyellow hover:text-black'> #Mdprintz </button>
+      <a
+        href="https://wa.me/628817743002"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <button
+          data-aos="zoom-in"
+          data-aos-delay="400"
+          className="flex items-center px-8 py-3 mt-12 font-semibold text-white uppercase rounded-lg bg-themepurple hover:bg-themeyellow hover:text-black"
+        >
+          <img
+            src="/src/assets/whatsapp.svg"
+            alt="WhatsApp"
+            className="w-6 h-6 mr-2"
+          />
+          Hubungi WhatsApp Kami
+        </button>
+      </a>
     </div>
   )
 }

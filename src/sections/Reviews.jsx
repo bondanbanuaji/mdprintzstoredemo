@@ -70,8 +70,11 @@ const Reviews = () => {
             reviewdata.map((item, index) => (
               <div>
                 <div key={index} className="flex flex-col items-center justify-center gap-4 p-3 lg:p-10">
-                  <img src={item.img} alt=""
-                    className='rounded-full w-[100px] m-auto' />
+                  <img
+                    src={item.img}
+                    alt=""
+                    className="object-cover w-24 h-24 m-auto rounded-full"
+                  />
                   <div className='flex items-center justify-center gap-1'>
                     <FaStar className='text-themepurple' />
                     <FaStar className='text-themepurple' />

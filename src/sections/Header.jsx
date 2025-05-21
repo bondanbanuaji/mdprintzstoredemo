@@ -6,15 +6,14 @@ const Header = () => {
   const [scrolled, setScrolled] = useState(false);
 
   const navItems = [
-  { name: 'Beranda', id: 'hero' },
-  { name: 'Kategori', id: 'category' },
-  { name: 'Layanan', id: 'services' }, 
-  { name: 'Promo', id: 'promo' },     
-  { name: 'Produk', id: 'products' },
-  { name: 'Ulasan', id: 'reviews' },
-  { name: 'Instagram', id: 'insta' },
-];
-
+    { name: 'Beranda', id: 'hero' },
+    { name: 'Kategori', id: 'category' },
+    { name: 'Layanan', id: 'services' },
+    { name: 'Promo', id: 'promo' },
+    { name: 'Produk', id: 'products' },
+    { name: 'Ulasan', id: 'reviews' },
+    { name: 'Instagram', id: 'insta' },
+  ];
 
   const scrollTo = (id) => {
     const el = document.getElementById(id);
@@ -24,11 +23,10 @@ const Header = () => {
     }
   };
 
-  // Handle scroll position and change header background
   useEffect(() => {
     const handleScroll = () => {
       if (window.scrollY > 50) {
-        setScrolled(true); // Change header style after 50px scroll
+        setScrolled(true);
       } else {
         setScrolled(false);
       }
@@ -40,7 +38,6 @@ const Header = () => {
     };
   }, []);
 
-  // Lock scroll when menu is open
   useEffect(() => {
     if (isOpen) {
       document.body.style.overflow = 'hidden';
@@ -48,7 +45,6 @@ const Header = () => {
       document.body.style.overflow = '';
     }
 
-    // Cleanup if component unmounts
     return () => {
       document.body.style.overflow = '';
     };
@@ -60,15 +56,21 @@ const Header = () => {
         scrolled ? 'bg-white bg-opacity-100' : 'bg-opacity-100 bg-white'
       } shadow-md`}
     >
-      <h1 className="text-xl font-bold text-themepurple">MD Printz</h1>
+      {/* Gambar logo sebagai pengganti <h1> */}
+      <a href="#hero">
+        <img
+          src="/logo.png"
+          alt="MD Printz Logo"
+          className="object-contain h-[3.5rem] auto w-"
+        />
+      </a>
 
-      {/* Hamburger Button - always visible */}
+      {/* Tombol hamburger */}
       <div className="z-50">
         <button
           onClick={() => setIsOpen(!isOpen)}
           className="relative flex flex-col items-center justify-center w-10 h-10"
         >
-          {/* Top Line */}
           <motion.span
             initial={false}
             animate={{
@@ -78,7 +80,6 @@ const Header = () => {
             transition={{ duration: 0.3 }}
             className="absolute w-8 h-[3px] bg-black rounded origin-center"
           />
-          {/* Middle Line */}
           <motion.span
             initial={false}
             animate={{
@@ -88,7 +89,6 @@ const Header = () => {
             transition={{ duration: 0.3 }}
             className="absolute w-8 h-[3px] bg-black rounded"
           />
-          {/* Bottom Line */}
           <motion.span
             initial={false}
             animate={{
@@ -101,7 +101,7 @@ const Header = () => {
         </button>
       </div>
 
-      {/* Hidden desktop nav */}
+      {/* Navigasi desktop (disembunyikan) */}
       <nav className="hidden">
         {navItems.map((item) => (
           <button
@@ -114,7 +114,7 @@ const Header = () => {
         ))}
       </nav>
 
-      {/* Mobile Overlay */}
+      {/* Overlay menu mobile */}
       <AnimatePresence>
         {isOpen && (
           <motion.div

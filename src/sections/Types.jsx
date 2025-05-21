@@ -19,40 +19,42 @@ const Types = () => {
   }, [])
   return (
     <div className='w-full px-5 lg:px-20 py-[80px] grid lg:grid-cols-3 grid-cols-1 justify-center items-start gap-10'>
+      {/* Kartu Undangan */}
       <div data-aos="zoom-in" data-aos-delay="100" className='flex flex-col items-end justify-center gap-6 p-10 bg-center bg-cover rounded-lg'
         style={{ backgroundImage: `url(${banner1})` }}>
         <h1 className='px-6 py-2 text-lg border rounded-lg text-themeyellow border-themeyellow'>
           Diskon 60%
         </h1>
-        <h1 className='text-4xl font-semibold text-white text-end'>Perangkat <br /> Nirkabel</h1>
+        <h1 className='text-4xl font-semibold text-white text-end'>Kartu <br /> Undangan</h1>
         <button className='px-6 py-3 font-semibold text-black rounded-lg bg-themeyellow'>
           Belanja Sekarang
         </button>
       </div>
 
+      {/* Kartu Nama */}
       <div data-aos="zoom-in" data-aos-delay="100" className='flex flex-col items-end justify-center gap-6 p-10 bg-center bg-cover rounded-lg'
         style={{ backgroundImage: `url(${banner2})` }}>
         <h1 className='px-6 py-2 text-lg border rounded-lg text-themeyellow border-themeyellow'>
           Diskon 60%
         </h1>
-        <h1 className='text-4xl font-semibold text-white text-end'>Perangkat <br /> Nirkabel</h1>
+        <h1 className='text-4xl font-semibold text-white text-end'>Kartu <br /> Nama</h1>
         <button className='px-6 py-3 font-semibold text-black rounded-lg bg-themeyellow'>
           Belanja Sekarang
         </button>
       </div>
 
+      {/* ID Card */}
       <div data-aos="zoom-in" data-aos-delay="100" className='flex flex-col items-end justify-center gap-6 p-10 bg-center bg-cover rounded-lg'
         style={{ backgroundImage: `url(${banner3})` }}>
         <h1 className='px-6 py-2 text-lg border rounded-lg text-themeyellow border-themeyellow'>
           Diskon 60%
         </h1>
-        <h1 className='text-4xl font-semibold text-white text-end'>Perangkat <br /> Nirkabel</h1>
+        <h1 className='text-4xl font-semibold text-white text-end'>ID <br /> Card</h1>
         <button className='px-6 py-3 font-semibold text-black rounded-lg bg-themeyellow'>
           Belanja Sekarang
         </button>
       </div>
     </div>
-
   )
 }
 
